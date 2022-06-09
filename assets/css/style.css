@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@100&family=Roboto:wght@100&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Square Peg', cursive; 
+font-family: 'Bad Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Square Peg', cursive;
+font-family: 'ABeeZee', sans-serif;*/
+
+/* All Section Start Here */
+
+h1, h2, h3, h4, h5, h6, p , ul  li  a , ol li{
+    font-family: "Bad Script", sans-serif;
+}
+
+
+
+
+  body{
+      margin: 0;
+    padding: 0;
+
+      overflow-x: hidden;
+      font-family: 'ABeeZee', sans-serif;
+    color: #000;}
+
+.myz-index
+{
+	width: 100%;
+	z-index: 1;
+}
+
+/* Section 1 Start Here */
+
+#mySection1
+{
+	background-color: #fff;
+}
+
+/* Section 1 End Here */
+
+
+/* Section 2 Start Here */
+#mySection2
+{
+	background-color: #f3f3f3;
+}
+/* Section 2 End Here */
+
+/* All Section End Here */
+
+/* Box Hover Start Here */
+.box-shadow, .row-box-shadow-2 .col-inner, .row-box-shadow-2-hover .col-inner:hover, .box-shadow-2, .box-shadow-2-hover:hover {
+    -webkit-box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+
+.row-box-shadow-1 .col, .row-box-shadow-2 .col-inner, .row-box-shadow-3 .col-inner, .row-box-shadow-4 .col-inner, .row-box-shadow-5 .col-inner, .row-box-shadow-1-hover .col-inner, .row-box-shadow-2-hover .col-inner, .row-box-shadow-3-hover .col-inner, .row-box-shadow-4-hover .col-inner, .row-box-shadow-5-hover .col-inner, .box-shadow-1, .box-shadow-2, .box-shadow-3, .box-shadow-4, .box-shadow-5, .box-shadow-1-hover, .box-shadow-2-hover, .box-shadow-3-hover, .box-shadow-4-hover, .box-shadow-5-hover 
+	 {
+		opacity: 0.7;
+		-webkit-transform:scale(1.15);
+		-moz-transform:scale(1.15);
+		-ms-transform:scale(1.15);
+		-o-transform:scale(1.15);
+		transform:scale(1.15);
+	  
+}
+
+/* Box Hover End Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-brown
+{
+	background-color: #55311e;
+}
+.bg-brown-light
+{
+	background-color: #55311f8e;
+}
+
+.freeshippingalert {
+    text-align: center;
+    background: #55311e;
+    /* padding: 1em 2em; */
+    position: fixed;
+    top: -100px;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    box-shadow: 0px 0px 5px 0px #000;
+    color: #fff;
+}
+.freeshippingalert .close
+{
+	float: right;
+	padding:0px 10px;
+	border:1px solid #fff;
+	border-radius:50%;
+	color:#fff
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.container-fulid .myCard {
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.55);
+    transition: 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.426); 
+   
+    justify-content: last baseline;
+
+    
+}
+
+.container-fulid .myCard:hover {
+    height: 450px
+}
+
+.container-fulid .myCard .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -70px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.223)
+}
+
+.container-fulid .myCard .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container-fulid .myCard .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    
+}
+.container-fulid .myCard .content ul {
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-basis: 20px;
+   align-items: center;
+   justify-content: center;
+}
+.container-fulid .myCard .content ul li {
+    list-style: none;
+    transition: 0.3s ease-in-out
+}
+.container-fulid .myCard .content ul li a {
+    color: #111;
+	text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+.container-fulid .myCard .content ul li a:hover {
+    color: rgba(37, 37, 37, 0.932);
+	font-weight: bolder;
+    cursor: pointer;
+    transition: 1.7ms ease-in-out;
+}
+
+.container-fulid .myCard:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s
+}
+
+
+.myCard .imgContainer
+{
+
+	border-radius:40px;
+	background-color: #55311e;
+}
+
+@media (max-width: 330px) {
+    .container-fulid .myCard .imgContainer {
+        left: -2px
+    }
+}
+
+
+/* Glass Acordion Start Here */
+.mygacobg {
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+  }
+
+.mygaco {
+    background: rgba(177, 176, 176, 0.215);
+    backdrop-filter: blur(4px);
+    /* box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.05); */
+    
+  }
+  /* Glass Acordion End Here */
+
+
+
+/* My Glass Card Start Here */
+
+  .mygheading {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .mygsub-heading {
+    font-size: 1.5rem;
+  }
+  .mygcard {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    backdrop-filter: blur(4px);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    height: fit-content;
+  }
+  .mygcard a {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .mygcard:hover {
+    
+    
+    backdrop-filter: blur(7px);
+    filter: saturate(+1.5);
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+  }
+  
+/* My Glass Card End Here */
+
+
+
+
+
+
+/* My Back To Top Button Start Here */
+
+#myBackTop {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid black;
+    display:none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBackTop:hover {
+      border-radius: 50%;
+      border : 2px solid black;
+    background-color: #55311e; /* Add a dark-grey background on hover */
+  }
+/* My Back To Top Button End Here */
+
+
+/* My Background Class Start Here */
+.bg-main-fill-my
+{
+
+    background-image: url('../backgrounds/mbg.webp');
+
+}
+
+
+.bg-end-fill-my {background-image:url('../backgrounds/endbg.webp');
+     background-size: cover;
+}
+
+.bg-end-fill-My {background-image: url('../backgrounds/endbg.webp');
+     background-size:  auto;
+     background-repeat: no-repeat;
+     background-position:center ;
+}
+    /* My Background Class End Here */
+
+
+
+.my-own{
+    color: white;
+    font-size: 24px;
+    
+
+}
+
+.my-own:hover{
+    color: #000;
+    transition: 0.17ms ease-in-out;
+    font-weight: bold;
+    transform: scale(1.2);
+    backdrop-filter:  brightness(+4);
+    border-radius: 10%;
+
+
+}
+
+
+.my-ownHover:hover{
+    color: #000;
+    transition: 0.17ms ease-in-out;
+font-weight: bold;
+transform: translateY(5px);
+}
+
+.my-ownHover:active{
+    color: #000;
+    transition: 0.17ms ease-in-out;
+font-weight: bold;
+transform: translateY(5px);
+}
+
+.my-ownActive{
+    color: #000;
+    transition: 0.17ms ease-in-out;
+font-weight: bold;
+transform: translateY(5px);
+}
+.my-imgHover:hover{
+ 
+    transition: 0.17ms ease-in-out;
+    
+    transform: scale(1.2);
+    /* transform: translateY(4px); */
+    
+}
